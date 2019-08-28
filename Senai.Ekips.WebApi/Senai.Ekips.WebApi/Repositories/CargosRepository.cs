@@ -20,6 +20,11 @@ namespace Senai.Ekips.WebApi.Repositories
             }
         }
 
+        /// <summary>
+        /// Cadastra um cargo
+        /// </summary>
+        /// <param name="cargo"></param>
+
         public void Cadastrar(Cargos cargo)
         {
             using (EkipsContext ctx = new EkipsContext())
@@ -28,6 +33,11 @@ namespace Senai.Ekips.WebApi.Repositories
                 ctx.SaveChanges();
             }
         }
+        /// <summary>
+        /// Busca um Cargo através do ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>Cargo Buscado</returns>
 
         public Cargos BuscarPorId(int id)
         {

@@ -12,44 +12,37 @@ namespace Senai.Ekips.WebApi.Controllers
     [Route("api/[controller]")]
     [Produces("application/json")]
     [ApiController]
-    public class CargosController : ControllerBase
+    public class DepartamentosController : ControllerBase
     {
 
-        CargosRepository CargosRepository = new CargosRepository();
+
+        DepartamentoRepository DepartamentoRepository = new DepartamentoRepository();
 
         [HttpGet]
-        public IEnumerable<Cargos> Listar()
+        public IEnumerable<Departamentos> Listar()
         {
 
             // return estilos;
-            return CargosRepository.Listar();
+            return DepartamentoRepository.Listar();
         }
 
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
-            Cargos Cargo = CargosRepository.BuscarPorId(id);
-            if (Cargo == null)
+            Departamentos Departamento = DepartamentoRepository.BuscarPorId(id);
+            if (Departamento == null)
             {
                 return NotFound();
             }
-            return Ok(Cargo);
+            return Ok(Departamento);
         }
 
         [HttpPost]
-        public IActionResult Cadastrar(Cargos Cargos)
+        public IActionResult Cadastrar(Departamentos Departamentos)
         {
-            CargosRepository.Cadastrar(Cargos);
+            DepartamentoRepository.Cadastrar(Departamentos);
             return Ok();
         }
 
-        [HttpPut("{id}")]
-
-        public IActionResult Atualizar(Cargos Cargos, int id)
-        {
-            Cargos.IdCargo = id;
-            CargosRepository.Atualizar(Cargos);
-            return Ok();
-        }
     }
 }
