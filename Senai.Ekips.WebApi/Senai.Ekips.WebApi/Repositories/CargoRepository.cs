@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Senai.Ekips.WebApi.Repositories
 {
-    public class CargosRepository
+    public class CargoRepository
     {
         /// <summary>
         /// Listas todos os cargos
@@ -56,10 +56,10 @@ namespace Senai.Ekips.WebApi.Repositories
         {
             using (EkipsContext ctx = new EkipsContext())
             {
-                Cargos cargoBuscada = ctx.Cargos.FirstOrDefault(x => x.IdCargo == cargo.IdCargo);
-                cargoBuscada.NomeCargo = cargo.NomeCargo;
-                cargoBuscada.Ativo = cargo.Ativo;
-                ctx.Cargos.Update(cargoBuscada);
+                Cargos cargoBuscado = ctx.Cargos.FirstOrDefault(x => x.IdCargo == cargo.IdCargo);
+                cargoBuscado.NomeCargo = cargo.NomeCargo;
+                cargoBuscado.Ativo = cargo.Ativo;
+                ctx.Cargos.Update(cargoBuscado);
                 ctx.SaveChanges();
             }
         }

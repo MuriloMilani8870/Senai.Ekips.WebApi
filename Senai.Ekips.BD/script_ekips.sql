@@ -63,3 +63,6 @@ SELECT * FROM Funcionarios;
 
 Alter Table Usuarios
 add Senha varchar (255);
+
+INSERT INTO Usuarios (Email, Permissao)
+	VALUES	('Pieri@gmail.com', 'ADMINISTRADOR')

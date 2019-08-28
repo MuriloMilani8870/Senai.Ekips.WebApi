@@ -15,20 +15,20 @@ namespace Senai.Ekips.WebApi.Controllers
     public class CargosController : ControllerBase
     {
 
-        CargosRepository CargosRepository = new CargosRepository();
+        CargoRepository CargoRepository = new CargoRepository();
 
         [HttpGet]
         public IEnumerable<Cargos> Listar()
         {
 
             // return estilos;
-            return CargosRepository.Listar();
+            return CargoRepository.Listar();
         }
 
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
-            Cargos Cargo = CargosRepository.BuscarPorId(id);
+            Cargos Cargo = CargoRepository.BuscarPorId(id);
             if (Cargo == null)
             {
                 return NotFound();
@@ -39,7 +39,7 @@ namespace Senai.Ekips.WebApi.Controllers
         [HttpPost]
         public IActionResult Cadastrar(Cargos Cargos)
         {
-            CargosRepository.Cadastrar(Cargos);
+            CargoRepository.Cadastrar(Cargos);
             return Ok();
         }
 
@@ -48,7 +48,7 @@ namespace Senai.Ekips.WebApi.Controllers
         public IActionResult Atualizar(Cargos Cargos, int id)
         {
             Cargos.IdCargo = id;
-            CargosRepository.Atualizar(Cargos);
+            CargoRepository.Atualizar(Cargos);
             return Ok();
         }
     }
