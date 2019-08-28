@@ -61,3 +61,5 @@ SELECT * FROM Cargos;
 
 SELECT * FROM Funcionarios;
 
+Alter Table Usuarios
+add Senha varchar (255);
