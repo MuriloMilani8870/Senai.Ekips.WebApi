@@ -9,3 +9,6 @@ C:\Users\44688951876\Desktop\Segundo Termo\SENAI-Segundo-termo\Sprint2-Backend\E
 C:\Users\44688951876\Desktop\Segundo Termo\SENAI-Segundo-termo\Sprint2-Backend\Exercícios\Senai.Ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.AssemblyInfoInputs.cache
 C:\Users\44688951876\Desktop\Segundo Termo\SENAI-Segundo-termo\Sprint2-Backend\Exercícios\Senai.Ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.AssemblyInfo.cs
 C:\Users\44688951876\Desktop\Segundo Termo\SENAI-Segundo-termo\Sprint2-Backend\Exercícios\Senai.Ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\44688951876\Desktop\Segundo Termo\SENAI-Segundo-termo\Sprint2-Backend\Exercícios\Senai.Ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\Senai.Ekips.WebApi\bin\Debug\netcoreapp2.1\Senai.Ekips.WebApi.pdb
+C:\Users\44688951876\Desktop\Segundo Termo\SENAI-Segundo-termo\Sprint2-Backend\Exercícios\Senai.Ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.dll
+C:\Users\44688951876\Desktop\Segundo Termo\SENAI-Segundo-termo\Sprint2-Backend\Exercícios\Senai.Ekips\Senai.Ekips.WebApi\Senai.Ekips.WebApi\Senai.Ekips.WebApi\obj\Debug\netcoreapp2.1\Senai.Ekips.WebApi.pdb
